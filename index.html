@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>For Our New Home — Raihan & Kay</title>
+<title>For Our New Home — Raihan & Kara</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
@@ -132,6 +132,18 @@
     outline: 2px solid var(--brass);
     outline-offset: 3px;
   }
+  .item .claimed-tag {
+    flex-shrink: 0;
+    font-size: 13px;
+    color: var(--ink-soft);
+    font-style: italic;
+    white-space: nowrap;
+  }
+  .item.is-claimed .item-name {
+    color: var(--ink-soft);
+    text-decoration: line-through;
+    text-decoration-color: var(--line);
+  }
   footer {
     margin-top: 56px;
     padding-top: 28px;
@@ -145,12 +157,32 @@
     color: var(--sage-deep);
     margin-bottom: 6px;
   }
+  .shipping {
+    margin-top: 56px;
+    padding: 24px 22px;
+    background: var(--bg-card);
+    border-radius: 4px;
+  }
+  .shipping-label {
+    font-family: 'Fraunces', serif;
+    font-style: italic;
+    font-size: 18px;
+    color: var(--sage);
+    margin: 0 0 12px;
+  }
+  .shipping address {
+    font-style: normal;
+    color: var(--ink);
+    font-size: 15px;
+    line-height: 1.6;
+  }
+  .shipping address p { margin: 0 0 4px; }
 </style>
 </head>
 <body>
   <div class="wrap">
     <header>
-      <p class="kicker">Raihan &amp; Kay · October 4, 2026</p>
+      <p class="kicker">Raihan &amp; Kara · October 4, 2026</p>
       <h1>For our new home</h1>
       <p>Your presence already means the world to us. But if you'd like to give something, here are a few things we'll actually use to fill our new home together.</p>
     </header>
@@ -182,8 +214,8 @@
         <a class="buy" href="https://tk.tokopedia.com/ZSbBDTPcS/" target="_blank" rel="noopener">View item →</a>
       </div>
       <div class="item">
-        <span class="item-name">Kettle</span>
-        <a class="buy" href="https://tk.tokopedia.com/ZSbBURQsp/" target="_blank" rel="noopener">View item →</a>
+        <span class="item-name">Electric kettle</span>
+        <a class="buy" href="https://tk.tokopedia.com/ZSbSGhWdP/" target="_blank" rel="noopener">View item →</a>
       </div>
       <div class="item">
         <span class="item-name">Frying pan</span>
@@ -214,10 +246,6 @@
     <section>
       <p class="section-label">Living room</p>
       <div class="item">
-        <span class="item-name">Soundbar</span>
-        <a class="buy" href="https://tk.tokopedia.com/ZSbBhYrEt/" target="_blank" rel="noopener">View item →</a>
-      </div>
-      <div class="item">
         <span class="item-name">Movable TV bracket</span>
         <a class="buy" href="https://tk.tokopedia.com/ZSbBhcwPs/" target="_blank" rel="noopener">View item →</a>
       </div>
@@ -227,9 +255,26 @@
       <p class="section-label">Bedroom</p>
       <div class="item">
         <span class="item-name">Vanity table</span>
-        <a class="buy" href="https://tk.tokopedia.com/ZSbBkuKkh/" target="_blank" rel="noopener">View item →</a>
+        <a class="buy" href="https://s.shopee.co.id/7faDoU3y9b" target="_blank" rel="noopener">View item →</a>
       </div>
     </section>
+
+    <section>
+      <p class="section-label">For us</p>
+      <div class="item">
+        <span class="item-name">Reflexology voucher</span>
+        <a class="buy" href="https://s.shopee.co.id/4fwcGrD1Ew" target="_blank" rel="noopener">View item →</a>
+      </div>
+    </section>
+
+    <div class="shipping">
+      <p class="shipping-label">Shipping address for online purchases</p>
+      <address>
+        <p>Raihan/Kara (no. HP salah satu)</p>
+        <p>Apartemen Permata Senayan Unit 2201</p>
+        <p>Jl. Palmerah Sel. No.20-20A, RT.4/RW.2, Gelora, Kecamatan Tanah Abang, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10270</p>
+      </address>
+    </div>
 
     <footer>
       <p class="names">Thank you so much,</p>
